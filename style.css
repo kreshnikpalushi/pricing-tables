@@ -140,9 +140,14 @@ body {
     width: 100%;
 }
 }
-@media(min-width:800) and (max-width:1024px){
+@media(min-width:800){
   .col {
     padding: 10px;
 }
 }
-@media  (max-width: 1000px) and (min-width: 800px)
+@media  (max-width: 1024px) 
+{
+    .col {
+    padding: 10px;
+}
+}
