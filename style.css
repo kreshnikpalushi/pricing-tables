@@ -1,0 +1,142 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fd6464;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    /*
+    width: 960px;
+    margin: 0 auto;
+*/
+}
+
+.col {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.price-box {
+    background: #fff;
+    color: #555;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.38);
+}
+.best{
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgba(252, 136, 136,0.7);
+}
+.best .price-header {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.price-header {
+    padding: 25px;
+    background-color: #424242;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.price-header:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(66, 66, 66, 0);
+    border-top-color: #424242;
+    border-width: 15px;
+    margin-left: -15px;
+}
+
+.price-title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: .18em;
+}
+.currency {
+    display: inline-block;
+    margin-top: 20px;
+    vertical-align: top;
+    font-size: 18px;
+    color: rgb(163, 163, 163);
+}
+
+.value {
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    /*  line-height: 0.24;*/
+}
+
+.duration {
+    color: rgb(163, 163, 163);
+    font-size: 12px;
+}
+
+.price-text {
+    color: rgb(163, 163, 163);
+    line-height: 1.286;
+}
+
+.price-list {
+    margin-top: 20px;
+}
+
+.price-list li {
+    padding: 16px;
+    margin: 0 30px;
+    color: #c0c0c0;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.price-list li:last-child,
+.price-list li:nth-child(4) {
+    border: none;
+}
+
+.price-list li:last-child {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.price-list li strong {
+    color: #424242;
+}
+
+.button-1 {
+    font-weight: 700;
+    color: #fd6464;
+    background-color: #fff;
+    border: 1px solid #fd6464;
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: block;
+}
+
+.button-2 {
+    font-weight: 700;
+    color: #fff;
+    background-color: #fd6464;
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: block;
+}
+@media(max-width:768px){
+  .col {
+    width: 100%;
+}
+}
