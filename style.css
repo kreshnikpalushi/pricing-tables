@@ -140,3 +140,8 @@ body {
     width: 100%;
 }
 }
+@media(min-width:800 and max-width:1024px){
+  .col {
+    padding: 20px;
+}
+}
